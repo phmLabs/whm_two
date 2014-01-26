@@ -13,6 +13,14 @@ body {
 	min-height: 78px;
 }
 
+.author-image {
+	float: left; text-align: center; padding-top: 85px; padding-left: 80px; padding-bottom: 30px
+}
+
+.author-desc {
+	margin-left: 340px; width: 600px; border-top: 1px solid #ececec; padding-top: 50px
+}
+
 #menu-kategorien .list-box {
 	float:left; margin-right: 20px; width:15px; height: 15px; margin-top: 15px;
 	margin-left: 15px;
@@ -515,6 +523,6 @@ body {
 }
 
 .comment-form-subscriptions label input [
-	position: relative;	
+	position: relative;
 	top: -8px;
 ]
