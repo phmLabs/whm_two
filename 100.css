@@ -1,0 +1,212 @@
+@CHARSET "ISO-8859-1";
+
+.sidebar-book {
+	font-size: 13px;
+}
+
+.sidebar-book img {
+float: left;
+       margin-right: 10px;
+       margin-top: 6px;
+}
+
+.fb-like-box {
+
+}
+
+#cat-list {
+	vertical-align: middle;
+}
+
+.postcat {
+width: 100%;
+height: 5px;
+}
+
+.postcat-allgemein {
+	background-color: #e30083;
+}
+
+.postcat-fuehrung {
+	background-color: #58add4;
+}
+
+.postcat-qualitaet {
+	background-color: #e41d24;
+}
+
+.postcat-whm-on-tour {
+	background-color: #83be40;
+}
+
+.postcat-entwicklung {
+	background-color: #3b3b3b;
+}
+
+.postcat-projektwerkstatt {
+	background-color: #ef8a1e;
+}
+
+.item {
+border: 1px solid #d7d7d7;
+width: 350px;
+       margin-left: 30px;
+       margin-bottom: 30px;
+}
+
+.whm-post-info {
+padding: 10px;
+}
+
+.whm-post-info h2 {
+	font-size: 19px;
+}
+
+.whm-post-info p {
+	#font-family: verdana;
+	#font-size: 12px;
+}
+
+#whm-container {
+	max-width: 1600px;
+}
+
+.post {
+	max-width: 800px;
+}
+
+.whm-post-info .autor {
+	position: relative;
+	left: 280px;
+	top: -40px;
+	height: 1px;
+}
+
+.whm-post-info .date img {
+	padding-right: 15px;
+}
+
+.whm-post-info .date {
+	font-size: 12px;
+	line-height: 12px;
+}
+
+@media ( min-width : 1200px) {
+	#medium-menu {
+		display: none;
+	}
+}
+
+@media ( max-width : 900px) {
+	#medium-menu {
+		display: none;
+	}
+}
+
+@media ( min-width : 1200px) {
+	#whm-container {
+		padding-top: 0px;
+	}
+}
+
+@media ( max-width : 1199px) {
+	#whm-container {
+		padding-top: 50px;
+	}
+}
+
+#medium-menu {
+	position: fixed;
+	top: 20px;
+	left: 70px;
+	width: 100%;
+	background-color: white;
+	height: 100px;
+	z-index: 1;
+}
+
+#medium-menu ul {
+	margin-left: 200px;
+}
+
+#medium-menu img {
+	float: left;
+	padding-right: 70px;
+}
+
+#medium-menu li {
+	float: left;
+	padding-right: 50px;
+}
+
+#small-menu {
+	padding-left: 50px;
+}
+
+@media ( min-width : 901px ) {
+	#small-menu {
+		display: none;
+	}
+}
+
+@media ( max-width : 900px ) {
+	.item {
+		width: 85%;
+		margin-bottom: 30px;
+	}
+	.whm-post-info .autor {
+		display: none;
+	}
+}
+
+#cat-list-small {
+	margin-top: 15px;
+	margin-left: 40px;
+	width: 195px;
+}
+
+#cat-list-small form {
+	float: right;
+}
+
+#small-menu {
+	text-align: center;
+	margin-right: 70px;
+}
+
+.link .whm-post-info {
+	padding-left: 0px;
+	padding-top: 0px;
+}
+
+.link .whm-post-info h2 {
+	padding-top: 6px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	color: red;
+	font-size: 13px;
+}
+
+#home_header_info {
+	position: relative;
+	top: -200px;
+	color: white;
+	left: 25px;
+	height: 1px;
+	width: 600px;
+}
+
+@media ( max-width : 1199px ) {
+	#home_header_info {
+		position: relative;
+		top: -120px;
+		color: white;
+		left: 25px;
+		height: 1px;
+		width: 500px;
+	}
+	#home_links {
+		display: none;
+	}
+}

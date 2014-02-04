@@ -1,0 +1,91 @@
+@media ( max-width : 1005px ) {
+	#whm2-content-list {
+		width: 685px;
+	}
+	#whm2-page-info .social {
+		float: none;
+		width: 685px;
+		padding-left: 0;
+		margin-right: 0;
+	}
+
+	#social-count {
+		padding-left: 195px;
+	}
+
+	#whm2-page-info {
+		width: 685px;
+		padding-bottom: 10px;
+	}
+	#mainmenu-box-inner {
+		width: 685px;
+		padding-left: 30px;
+	}
+	#mainmenu {
+		padding-left: 235px;
+	}
+	#whm2-footer-inner {
+		width: 685px;
+	}
+	#pagination {
+		width: 630px;
+	}
+	#whm2-page-description {
+		margin-left: 20px;
+		margin-right: 0;
+		padding-top: 40px;
+	}
+	#whm-content-article-sidebar {
+		display: none;
+	}
+	#whm-content-inner {
+		width: 685px;
+	}
+	#mainmenu-search {
+		display: none;
+	}
+
+	#whm2-footer-logo {
+		padding-left: 0;
+		padding-right: 100px;
+	}
+
+	#whm2-footer-categories {
+		display: none;
+	}
+
+	#whm2-footer-columns {
+		display: none;
+	}
+
+	#article-social-count {
+		display: none;
+	}
+
+	#article-content {
+		padding-left: 15px;
+		padding-right: 15px;
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+
+	#whm-content-article {
+		width: 655px;
+	}
+
+	#related-3 {
+		display: none;
+	}
+
+	#article-comments {
+		margin-left: 0;
+	}
+
+	#whm-content-block {
+		width: 650px;
+	}
+
+	.article-thumb {
+		width: 655px;
+	}
+}

@@ -1,0 +1,43 @@
+@media( max-width: 1400px ) {
+
+	#whm2-content-list {
+		width: 1030px;
+	}
+
+	#whm2-page-info {
+		width: 1030px;
+		padding-bottom: 10px;
+	}
+
+	#mainmenu-box-inner {
+		width: 987px;
+		padding-left: 30px;
+	}
+
+	#mainmenu {
+		padding-left: 208px;
+	}
+
+	#whm2-footer-inner {
+		width: 987px;
+	}
+
+	#pagination {
+		width: 970px;
+	}
+
+	#whm2-page-description {
+		margin-left: 360px;
+		width: 655px;
+		margin-right: 0px;
+		padding-right: 0px;
+	}
+
+	#whm-content-article-sidebar {
+		display: none;
+	}
+
+	#whm-content-inner {
+		width: 995px;
+	}
+}
