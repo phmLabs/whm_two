@@ -73,6 +73,13 @@
 </script> 
 </div>
 	<?php endif; ?>
+
+<div style="padding-top: 10px; margin-top: 50px; color: #666666; font-size: 11px; border-top: 1px solid #ececec;">
+	<span>&Uuml;ber den Autor</span>
+	<h3 style="padding-top: 2px; margin-top: 0px;"><?php the_author() ?></h3>
+	<?php the_author_description(); ?> 
+</div>
+
 	<footer class="entry-footer">
 		<?php
 		$tags_list = get_the_tag_list ( '', __ ( '', 'dw-minion' ) );
