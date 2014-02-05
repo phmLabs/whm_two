@@ -42,7 +42,7 @@
 <iframe src="http://www.slideshare.net/slideshow/embed_code/<?php echo get_field("slideshare_id") ?>" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen> </iframe>
 <?php endif; ?>
 
-<div id="article-social" style="margin-top: 20px;">
+<div id="article-social" style="margin-top: 50px;">
 
 <div style="width: 120px; float: left">
 	<div class="fb-like" data-href="<?php echo site_url(); ?><?php echo $_SERVER["REQUEST_URI"]; ?>" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
