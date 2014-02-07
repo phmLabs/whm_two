@@ -74,12 +74,6 @@
 </div>
 	<?php endif; ?>
 
-<div style="padding-top: 10px; margin-top: 50px; color: #666666; font-size: 11px; border-top: 1px solid #ececec;">
-	<span>&Uuml;ber den Autor</span>
-	<h3 style="padding-top: 2px; margin-top: 0px;"><?php the_author() ?></h3>
-	<?php the_author_description(); ?> 
-</div>
-
 	<footer class="entry-footer">
 		<?php
 		$tags_list = get_the_tag_list ( '', __ ( '', 'dw-minion' ) );
@@ -93,5 +87,24 @@
 		</div>
 		<?php endif; ?>
 	</footer>
+	</div>
+	<div style="padding-top: 10px; margin-top: 50px; color: #666666; font-size: 11px; padding-bottom: 50px;">
+	        <div class="author-image" style="float: left; text-align: center; padding-top: 85px;padding-left: 80px">
+		<?php
+			$xingProfile = get_the_author_meta('xing');
+			$LinkedinProfile = get_the_author_meta('linkedind'); 
+			$image = get_the_author_meta('first_name'). "-" . get_the_author_meta("last_name")."-big.png";
+			if (file_exists($_SERVER['DOCUMENT_ROOT']."/images/autoren/".$image))
+			echo '<img src="/images/autoren/'.$image.'" />';
+		?>
+		<?php if ( $xingProfile != "" ): ?>
+			<a href="$xingProfile"><img src="/images/social/autor/XING.png" /></a>
+		<?php endif; ?>
+		</div>
+		<div class="author-desc" style="margin-left: 340px; width: 600px;  border-top: 1px solid #ececec; padding-top: 50px">
+		<span>&Uuml;ber den Autor</span>
+        	<h3 style="padding-top: 2px; margin-top: 0px;"><?php the_author() ?></h3>
+	        <?php the_author_description(); ?>
+		</div>
 	</div>
 </article>
