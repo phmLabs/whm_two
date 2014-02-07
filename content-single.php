@@ -97,9 +97,15 @@
 			if (file_exists($_SERVER['DOCUMENT_ROOT']."/images/autoren/".$image))
 			echo '<img src="/images/autoren/'.$image.'" />';
 		?>
+		<div style="clear:both"></div>
 		<?php if ( $xingProfile != "" ): ?>
 			<a href="<? echo $xingProfile ?>"><img src="/images/social/autor/XING.gif" /></a>
 		<?php endif; ?>
+
+                <?php if ( $linkedinProfile != "" ): ?>
+                        <a href="<? echo $linkedinProfile ?>"><img src="/images/social/autor/LinkedIn.gif" /></a>
+                <?php endif; ?>
+
 		</div>
 		<div class="author-desc" style="margin-left: 340px; width: 600px;  border-top: 1px solid #ececec; padding-top: 50px">
 		<span>&Uuml;ber den Autor</span>
