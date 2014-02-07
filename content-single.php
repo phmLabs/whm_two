@@ -89,13 +89,13 @@
 	</footer>
 	</div>
 	<div style="padding-top: 10px; margin-top: 50px; color: #666666; font-size: 11px; padding-bottom: 50px;">
-	        <div class="author-image" style="float: left; text-align: center; padding-top: 85px;padding-left: 80px">
+	        <div class="author-image" style="float: left; text-align: center; padding-top: 85px;padding-left: 80px; padding-bottom: 30px">
 		<?php
 			$xingProfile = get_the_author_meta('xing');
 			$linkedinProfile = get_the_author_meta('linkedin'); 
 			$image = get_the_author_meta('first_name'). "-" . get_the_author_meta("last_name")."-big.png";
 			if (file_exists($_SERVER['DOCUMENT_ROOT']."/images/autoren/".$image))
-			echo '<img src="/images/autoren/'.$image.'" />';
+			echo '<img src="/images/autoren/'.$image.'" style="margin-bottom:20px" />';
 		?>
 		<div style="clear:both"></div>
 		<?php if ( $xingProfile != "" ): ?>
