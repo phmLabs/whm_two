@@ -98,7 +98,7 @@
 			echo '<img src="/images/autoren/'.$image.'" />';
 		?>
 		<?php if ( $xingProfile != "" ): ?>
-			<a href="$xingProfile"><img src="/images/social/autor/XING.png" /></a>
+			<a href="<? echo $xingProfile ?>"><img src="/images/social/autor/XING.gif" /></a>
 		<?php endif; ?>
 		</div>
 		<div class="author-desc" style="margin-left: 340px; width: 600px;  border-top: 1px solid #ececec; padding-top: 50px">
