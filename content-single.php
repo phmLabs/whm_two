@@ -92,7 +92,7 @@
 	        <div class="author-image" style="float: left; text-align: center; padding-top: 85px;padding-left: 80px">
 		<?php
 			$xingProfile = get_the_author_meta('xing');
-			$LinkedinProfile = get_the_author_meta('linkedind'); 
+			$linkedinProfile = get_the_author_meta('linkedin'); 
 			$image = get_the_author_meta('first_name'). "-" . get_the_author_meta("last_name")."-big.png";
 			if (file_exists($_SERVER['DOCUMENT_ROOT']."/images/autoren/".$image))
 			echo '<img src="/images/autoren/'.$image.'" />';
