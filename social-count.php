@@ -4,7 +4,7 @@
 	global $twitterCount;
 	global $rssCount;
 
-	$facebookCount = 543;
-	$googleCount = 68;
+	$facebookCount = 554;
+	$googleCount = 70;
 	$twitterCount = 1418;
-	$rssCount = 1976;
+	$rssCount = 2055;
