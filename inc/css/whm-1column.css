@@ -1,3 +1,92 @@
 @media( max-width: 750px ) {
 
+	#whm-content-article {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+
+	#whm-content-inner {
+		width: calc(100% - 30px);
+	}
+
+	#whm-content-block {
+		width: 100%;
+	}
+
+	.two-column {
+		width: calc(100% - 60px);
+	}
+
+	.author-image {
+		display: none;
+	}
+
+      	#whm2-footer-inner {
+		width: calc( 100% - 60px);
+	}
+
+	#whm2-footer-logo {
+		display: none;
+	}
+	
+	.article-thumb {
+		width: 100%;
+	}
+
+	#stickylogo a {
+		font-weight: bold;
+	}
+
+	#mainmenu {
+		padding-left: 30px;
+		paddin-top: 15px;
+	}
+
+	textarea {
+		width: 100%;
+	}
+
+	.author-desc {
+		margin-left: 15px;
+		width: calc( 100% - 40px);
+	}
+	
+	.relateds {
+		display: none;
+	}
+
+	#whm2-page-info {
+		width: calc( 100% - 40px );
+		margin-left: 0px;
+	}
+
+	#whm2-page-info .social {
+		display: none;
+	}
+
+	#whm2-content-list {
+		width: calc( 100% - 40px );
+	}
+
+	#pagination {
+		margin-left: 35px;
+		width: calc( 100% - 85px );
+	}
+
+	#mainmenu-box-inner {
+		width: calc(100% - 40px);
+	}
+
+	.entry-content {
+		margin-right: 15px;
+	}
+
+	.item {
+		width: 100%;
+	}
+
+	#whm2-page-description {
+		width: 100%;
+	}
+
 }
