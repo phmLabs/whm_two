@@ -46,6 +46,10 @@
 		display:none;
 	}
 
+	#mainmenu-kolumnen {
+		display: none;
+	}
+
 	textarea {
 		width: 100%;
 	}

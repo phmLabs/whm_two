@@ -25,7 +25,7 @@
                                 <?php wp_nav_menu( array('container' => '', 'menu' => 'Kategorien', "before" => "<div class='list-box'></div>" )); ?>
                         </li>
 
-			<li class="first-level"><img src="/images/whm2-mainmenu-down.png"
+			<li class="first-level" id="mainmenu-kolumnen"><img src="/images/whm2-mainmenu-down.png"
 				style="padding-right: 8px;" /> Kolumnen
 				<?php wp_nav_menu( array('container' => '', 'menu' => 'Kolumnen' )); ?>
 			</li>
