@@ -24,6 +24,7 @@
 <!-- sticky.js, http://stickyjs.com/ -->
 <script src="<?php  echo get_template_directory_uri(); ?>/inc/js/jquery.sticky.js"></script>
 
+<meta property="fb:admins" content="100000130492338" />
 <?php if (is_array($openGraph)):?>
   <meta property="og:image" content="<?php echo $openGraph['image']; ?>">
 <?php endif; ?>
