@@ -252,6 +252,10 @@ body {
 	visibility: visible;
 }
 
+#stickylogo a {
+	font-weight: bold;
+}
+
 .page #stickylogo {
         visibility: visible;
 }
