@@ -38,8 +38,18 @@
 	}
 
 	#mainmenu {
-		padding-left: 30px;
-		paddin-top: 15px;
+		clear: both;
+		padding-left: 0px;
+		padding-right: 30px;
+		width: calc(100% - 100px); 
+	}
+
+	#mainmenu-box {
+		height: 80px;
+	}
+
+	.first-level ul {
+		padding-right: 30px;
 	}
 
 	#mainmenu-whm {
@@ -47,7 +57,7 @@
 	}
 
 	#mainmenu-kolumnen {
-		display: none;
+		ddisplay: none;
 	}
 
 	textarea {
