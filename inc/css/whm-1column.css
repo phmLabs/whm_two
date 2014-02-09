@@ -1,5 +1,10 @@
 @media( max-width: 750px ) {
 
+	#whm2-header-kicker {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
 	#whm-content-article {
 		width: 100%;
 		margin-bottom: 30px;
