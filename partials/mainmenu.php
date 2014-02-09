@@ -29,7 +29,7 @@
 				style="padding-right: 8px;" /> Kolumnen
 				<?php wp_nav_menu( array('container' => '', 'menu' => 'Kolumnen' )); ?>
 			</li>
-			<li class="first-level"><img src="/images/whm2-mainmenu-down.png"
+			<li class="first-level" id="mainmenu-whm"><img src="/images/whm2-mainmenu-down.png"
 				style="padding-right: 8px;" /> whm
 				<?php wp_nav_menu( array('container' => '', 'menu' => 'whm' )); ?>
 			</li>

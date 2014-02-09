@@ -42,6 +42,10 @@
 		paddin-top: 15px;
 	}
 
+	#mainmenu-whm {
+		display:none;
+	}
+
 	textarea {
 		width: 100%;
 	}
@@ -70,8 +74,16 @@
 
 	#pagination {
 		margin-left: 35px;
-		width: calc( 100% - 85px );
+		width: calc( 100% - 100px );
 	}
+
+	.nav-previous {
+		
+	}
+
+	.nav-status {
+		width: calc( 60% - 30px );
+	} 
 
 	#mainmenu-box-inner {
 		width: calc(100% - 40px);
@@ -82,7 +94,7 @@
 	}
 
 	.item {
-		width: 100%;
+		width: calc(100% - 30px);
 	}
 
 	#whm2-page-description {
