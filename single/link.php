@@ -7,9 +7,11 @@ if (get_field("listenbild") != "") {
   $category = $categories[0]->slug;
   $openGraph['image'] = '/images/link-' . $category . '.png';
 }
-$link = get_field("url");
 
-if( strpos($link, "https") === 0 ) {
+$link = get_field("url");
+$redirect = get_field("redirect");
+
+if( strpos($link, "https") === 0 || $redirect === "true") {
   header ('HTTP/1.1 301 Moved Permanently');
   header ('Location: '.$link);
   die;
