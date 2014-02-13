@@ -84,6 +84,8 @@ function whm_getSpecialElements ()
   $pageType = whm_getPageType();
   $pageNumber = get_query_var('paged') ? get_query_var('paged') : 1;
 
+  $specialElements = array();
+
   if ($pageNumber == 1) {
     $specialElements[7] = "authors.php";
     $specialElements[3] = "facebook.php";
