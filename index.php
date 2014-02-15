@@ -67,7 +67,9 @@ var $container = $('#whm2-content-list');
 $container.imagesLoaded(function() {
     $container.isotope({
       itemSelector: '.item',
-      layoutMode : 'masonry'
+      masonry: {
+        columnWidth: 342
+      }
     });
 });
 

@@ -1,4 +1,9 @@
 <?php
+
+    if ( get_field( 'artikeltyp' ) == "teaserartikel" ) {
+	echo get_the_content();
+    }else{
+
     $listImage = get_field('listenbild');
 
     $post_format = get_post_format();
@@ -17,7 +22,6 @@
     	$post_url = esc_url( apply_filters( 'the_permalink', get_permalink() ) );
     }
 ?>
-
 <article id="post-<?php the_ID(); ?>" class="item">
         <a href="<?php echo $post_url ?>" rel="bookmark"><img src="<?php echo $listImage["url"]; ?>" width="100%"></a>
         <div class="whm-post-info">
@@ -32,3 +36,4 @@
        	</div>
     	<div class="postcat background-color-cat-<?php echo $categories[0]->slug ?>"></div>
 </article>
+<?php } ?>
