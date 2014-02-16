@@ -52,6 +52,8 @@ function whm_filterPost ($wpQuery)
 {
   if (is_home()) {
     set_query_var('tag__not_in', array("64", "100", "99"));
+  }else if ( is_category() ) {
+    set_query_var('tag__not_in', array("112"));
   }
 }
 
