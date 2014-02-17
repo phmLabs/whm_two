@@ -11,6 +11,7 @@ if (get_field('artikeltyp') == "teaserartikel") {
   if (! is_array($listImage))
     $listImage["url"] = '/images/nolistimage.png';
   $categories = get_the_category($post_id);
+  $mainCat = $categories[0]->slug;
 
   if (get_post_format() == "gallery") {
     $tags = get_the_terms(get_post(), "post_tag");
@@ -44,6 +45,6 @@ if (get_field('artikeltyp') == "teaserartikel") {
       <?php include __DIR__.'/../../../../plugins/postQuickEdit/editForm.php';?>
 	<?php endif; ?>
 	<div
-		class="postcat background-color-cat-<?php echo $categories[0]->slug ?>"></div>
+		class="postcat background-color-cat-<?php echo $mainCat; ?>"></div>
 </article>
 <?php } ?>
