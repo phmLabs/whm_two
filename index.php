@@ -16,11 +16,11 @@ $i = 0;
 
         if (array_key_exists($i, $specialElements))
           include __dir__ . "/whm/list/" . $specialElements[$i];
-        do_action('show_special_element');
+        do_action('loop_before_post');
         ?>
 						<?php get_template_part( 'content', get_post_format() ); ?>
 
-
+						<?php do_action('loop_after_post'); ?>
 					<?php endwhile; ?>
 
 				<?php else : ?>

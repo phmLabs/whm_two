@@ -41,8 +41,7 @@ if (get_field('artikeltyp') == "teaserartikel") {
 			</p>
 		</div>
 	</div>
-	<?php if ( function_exists( "renderQuickEdit" ) )
-          renderQuickEdit(); ?>
+	<?php do_action( 'loop_after_item' ); ?>
 	<div
 		class="postcat background-color-cat-<?php echo $mainCat; ?>"></div>
 </article>
