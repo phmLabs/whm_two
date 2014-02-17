@@ -41,9 +41,8 @@ if (get_field('artikeltyp') == "teaserartikel") {
 			</p>
 		</div>
 	</div>
-	<?php if ( is_user_logged_in() ): ?>
-      <?php include __DIR__.'/../../../../plugins/postQuickEdit/editForm.php';?>
-	<?php endif; ?>
+	<?php if ( function_exists( "renderQuickEdit" ) )
+          renderQuickEdit(); ?>
 	<div
 		class="postcat background-color-cat-<?php echo $mainCat; ?>"></div>
 </article>
