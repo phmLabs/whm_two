@@ -7,7 +7,15 @@
   background-color: <?php echo $css_category_color["entwicklung"]?>;
 }
 
+.background-color-cat-php {
+  background-color: <?php echo $css_category_color["entwicklung"]?>;
+}
+
 .background-color-cat-fuehrung {
+  background-color: <?php echo $css_category_color["fuehrung"]?>;
+}
+
+.background-color-cat-agilitaet {
   background-color: <?php echo $css_category_color["fuehrung"]?>;
 }
 
